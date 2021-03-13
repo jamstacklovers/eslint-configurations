@@ -1,0 +1,25 @@
+{
+  "name": "@frontenso/eslint-config-javascript",
+  "version": "0.1.0",
+  "description": "ESLint configuration that we use at frontenso",
+  "main": "index.js",
+  "repository": "https://github.com/frontenso/eslint-config-javascript",
+  "author": "einomi <andrew@frontenso.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.7.0",
+    "eslint-plugin-unicorn": "^19.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-security": ">=1.4.0"
+  },
+  "keywords": [
+    "frontenso",
+    "eslint",
+    "eslint-config",
+    "eslint config"
+  ]
+}
