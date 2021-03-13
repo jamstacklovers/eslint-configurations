@@ -60,7 +60,7 @@ module.exports = {
       },
     ],
     "id-blacklist": ["error", ...variableNamesBlacklist],
-    "id-length": ["error", { min: 2 }],
+    "id-length": ["error", { min: 2, "exceptions": ["x", "y", "z", "_"] }],
     "unicorn/filename-case": ["error", { case: "kebabCase" }],
 
     // returns
@@ -131,5 +131,8 @@ module.exports = {
 
     // too restrictive on abbreviations, they are part of API
     "unicorn/prevent-abbreviations": "off",
+
+    // other
+    "curly": "error"
   },
 };

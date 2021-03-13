@@ -1,7 +1,7 @@
 {
-  "name": "@frontenso/eslint-config-javascript",
-  "version": "0.1.3",
-  "description": "ESLint configuration that we use at frontenso",
+  "name": "@frontenso/eslint-config-react",
+  "version": "0.1.0",
+  "description": "ESLint React configuration that we use at frontenso",
   "main": "index.js",
   "repository": "https://github.com/frontenso/eslint-configurations",
   "author": "einomi <andrew@frontenso.com>",
@@ -12,14 +12,14 @@
   },
   "peerDependencies": {
     "eslint": ">=6.7.0",
-    "eslint-plugin-unicorn": ">=23.0.0",
-    "eslint-plugin-import": ">=2.12.0",
-    "eslint-plugin-security": ">=1.4.0"
+    "eslint-plugin-react": ">=7.22.0",
+    "eslint-plugin-react-hooks": ">=4.2.0"
   },
   "keywords": [
     "frontenso",
     "eslint",
     "eslint-config",
-    "eslint config"
+    "eslint config",
+    "react"
   ]
 }
