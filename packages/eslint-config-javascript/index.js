@@ -26,7 +26,6 @@ module.exports = {
     "max-classes-per-file": ["error", 3],
 
     // ternary expressions
-    "multiline-ternary": ["error", "never"],
     "no-nested-ternary": "error",
 
     // operators
