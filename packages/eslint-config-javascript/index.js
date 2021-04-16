@@ -59,7 +59,7 @@ module.exports = {
       },
     ],
     "id-blacklist": ["error", ...variableNamesBlacklist],
-    "id-length": ["error", { min: 2, "exceptions": ["x", "y", "z", "_"] }],
+    "id-length": ["error", { min: 2, exceptions: ["x", "y", "z", "_"] }],
     "unicorn/filename-case": ["error", { case: "kebabCase" }],
 
     // returns
@@ -86,7 +86,7 @@ module.exports = {
 
     // warn about using console or debugger in development, fail in production
     "no-console": [
-      process.env.NODE_ENV !== "production" ? 1 : 2,
+      "error",
       {
         allow: ["warn", "error", "info"],
       },
@@ -132,6 +132,6 @@ module.exports = {
     "unicorn/prevent-abbreviations": "off",
 
     // other
-    "curly": "error"
+    curly: "error",
   },
 };
