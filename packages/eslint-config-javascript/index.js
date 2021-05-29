@@ -81,7 +81,7 @@ module.exports = {
     "default-case": ["error", { commentPattern: "^no default$" }],
 
     // regex
-    "require-unicode-regexp": "error",
+    "require-unicode-regexp": "off",
     "no-misleading-character-class": "error",
 
     // warn about using console or debugger in development, fail in production
