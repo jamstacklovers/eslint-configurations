@@ -1,6 +1,6 @@
 {
   "name": "@frontenso/eslint-config-javascript",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ESLint configuration that we use at frontenso",
   "main": "index.js",
   "repository": "https://github.com/frontenso/eslint-configurations",
