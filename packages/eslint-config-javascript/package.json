@@ -1,6 +1,6 @@
 {
   "name": "@frontenso/eslint-config-javascript",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "ESLint configuration that we use at frontenso",
   "main": "index.js",
   "repository": "https://github.com/frontenso/eslint-configurations",
@@ -13,8 +13,7 @@
   "peerDependencies": {
     "eslint": ">=6.7.0",
     "eslint-plugin-unicorn": ">=23.0.0",
-    "eslint-plugin-import": ">=2.12.0",
-    "eslint-plugin-security": ">=1.4.0"
+    "eslint-plugin-import": ">=2.12.0"
   },
   "keywords": [
     "frontenso",
