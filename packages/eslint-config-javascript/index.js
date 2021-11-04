@@ -18,8 +18,8 @@ module.exports = {
     ],
 
     // complexity
-    complexity: ["error", { max: 9 }],
-    "max-statements": ["error", 14, { ignoreTopLevelFunctions: true }],
+    complexity: ["error", { max: 30 }],
+    "max-statements": ["error", 25, { ignoreTopLevelFunctions: true }],
     "max-depth": ["error", { max: 4 }],
     "max-params": ["error", { max: 5 }],
     "max-nested-callbacks": ["error", { max: 3 }],
